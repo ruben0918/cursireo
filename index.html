@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/python.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <title>Курсырио</title>
+</head>
+<body>
+    <header id="main">
+        <div class="container">
+            <div class="header">
+                <a class="logotype" href="index.html"><img src="assets/python.png" alt="" class="logo">КУРСЫРИО</a>
+                <nav class="navigation">
+                    <ul class="navigation__menu">
+                        <li><a href="#main" class="navigation__menu-link">Главная</a></li>
+                        <li><a href="#coursers" class="navigation__menu-link">Курсы</a></li>
+                        <li><a href="#contact" class="navigation__menu-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <div class="container">
+                <h2 class="main-section__title">Ещё не поздно</h2>
+                <p class="main-section__text">Приобрести новые курсы с огромной скидкой до 50%</p>
+                <a class="main-section__button" href="#coursers">Перейти</a>
+            </div>
+        </section>
+        <section class="catalog-section" id="coursers">
+            <div class="container">
+                <h2 class="section__title">Курсы</h2>
+                <div class="coursers">
+                    <button class="coursers__button" id="all">Все</button>
+                    <button class="coursers__button" id="games">Разработка игр</button>
+                    <button class="coursers__button" id="web">Веб-разработка</button>
+                    <button class="coursers__button" id="design">Дизайн</button>
+                </div>
+                <div class="coursers-block"></div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Связаться с нами</h2>
+                <form>
+                    <input type="text" id="name" class="form-input" placeholder="Введите ваше имя"><br>
+                    <input type="email" id="email" class="form-input" placeholder="Введите вашу эл. почту"><br>
+                    <textarea name="comment" id="comment" cols="50" rows="10" placeholder="Введите ваш отзыв/сообщение" class="form-input"></textarea><br>
+                    <button type="submit" class="form-button">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <a class="logotype" href="index.html">КУРСЫРИО</a>
+                <nav class="navigation">
+                    <ul class="navigation__menu">
+                        <li><a href="#main" class="navigation__menu-link">Главная</a></li>
+                        <li><a href="#coursers" class="navigation__menu-link">Курсы</a></li>
+                        <li><a href="#contact" class="navigation__menu-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
